@@ -1,10 +1,6 @@
 /*
 File: Accuweb Layout CSS
-<<<<<<< HEAD
 Author: Mark Cheng (lujiang.cheng@gmail.com)
-=======
-Author: Mark Cheng
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
  */
 
 
@@ -18,24 +14,17 @@ body {
 
 body>.container {
     background-color: #ffffff;
-<<<<<<< HEAD
     padding: 0px !important;
-=======
-    padding: 0px;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 
-<<<<<<< HEAD
 header > div:first-child{
     margin:5px 0px;
 }
 
-=======
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 header .logo {
     margin: 10px 15px;
     float: left;
@@ -45,7 +34,6 @@ header .logo a:hover {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 header img {
     width: 33px;
     height: 36px;
@@ -90,19 +78,10 @@ header .btn-group {
 
 header .dropdown-menu {
     width: 133px;
-=======
-header .logo h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 28px;
-    color: #003977;
-    display: inline;
-    margin-left: 10px;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 header .input-group {
     display: none !important;
-<<<<<<< HEAD
     width: 320px !important;
     top: 20px !important;
     right: 0px !important;
@@ -119,21 +98,11 @@ header .input-group input::-moz-placeholder {
 header .input-group input:-ms-input-placeholder {
     color: #ccc;
     transition: opacity 250ms ease-in-out;
-=======
-    width: 350px !important;
-    float: right !important;
-    top: 20px !important;
-    right: 20px !important;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 @media (min-width: 768px) {
     header .input-group {
-<<<<<<< HEAD
         display: inline-table !important;
-=======
-        display: table !important;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
     }
 }
 
@@ -152,11 +121,7 @@ nav ul {
 }
 
 nav ul li {
-<<<<<<< HEAD
     padding: 10px 0px;
-=======
-    padding: 10px 0;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 nav ul li a,
@@ -175,28 +140,16 @@ nav ul li a:visited {
 
 nav > ul {
     display: none;
-<<<<<<< HEAD
     margin-bottom: 0px;
 }
 
 nav select {
     background: #003977 url("images/navy_dot.png") !important;
-=======
-    margin-bottom: 0;
-}
-
-nav select {
-    background-color: #003977 !important;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
     color: #ffffff !important;
 }
 
 nav select.form-control {
-<<<<<<< HEAD
     border-radius: 0px !important;
-=======
-    border-radius: 0 !important;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 nav select option {
@@ -238,12 +191,9 @@ nav select option {
     nav ul ul li a:hover {
         text-decoration: none;
     }
-<<<<<<< HEAD
     nav span.glyphicon {
         padding: 5px 5px 5px 0px;
     }
-=======
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 
 
@@ -271,11 +221,7 @@ nav select option {
     }
     nav > ul > li:not(:first-child)::before {
         content: '|';
-<<<<<<< HEAD
         margin: 0px 13px;
-=======
-        margin: 0 13px;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
     }
     nav > ul > li.drop-down-list::after {
         content: "";
@@ -284,11 +230,7 @@ nav select option {
         margin: 0 5px;
         top: -2px;
         border: 5px solid transparent;
-<<<<<<< HEAD
         border-bottom: 0px;
-=======
-        border-bottom: 0;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
         border-top-color: #ffffff;
         -moz-transition: border-top 200ms ease-in, border-bottom 200ms ease-in;
         -webkit-transition: border-top 200ms ease-in, border-bottom 200ms ease-in;
@@ -301,7 +243,6 @@ nav select option {
         margin: 0 5px;
         top: -2px;
         border: 5px solid transparent;
-<<<<<<< HEAD
         border-top: 0px;
         border-bottom-color: #ffe400;
     }
@@ -319,22 +260,6 @@ nav select option {
         display: none !important;
         background: rgba(249, 249, 249, 0.95);
         padding: 0px;
-=======
-        border-top: 0;
-        border-bottom-color: #ffe400;
-    }
-    nav > ul > li:hover > a {
-        color: #ffe400;
-        text-decoration: none;
-    }
-    nav ul li:hover > ul {
-        display: block;
-    }
-    nav ul ul {
-        display: none;
-        background: rgba(249, 249, 249, 0.95);
-        padding: 0;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
         position: absolute;
         top: 100%;
         left: 20px;
@@ -345,11 +270,7 @@ nav select option {
         border-top: 1px solid #f0f0f0;
         border-bottom: 1px solid #c8c9ca;
         position: relative;
-<<<<<<< HEAD
         padding: 0px;
-=======
-        padding: 0;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
         width: 300px;
     }
     nav > ul > li:nth-child(2) > ul > li {
@@ -365,7 +286,6 @@ nav select option {
         width: 100%;
     }
     nav ul ul li a:hover {
-<<<<<<< HEAD
         background: #c8c9ca;
         color: #ffffff;
         text-decoration: none;
@@ -373,21 +293,6 @@ nav select option {
 }
 
 
-=======
-        background: linear-gradient(#e8e8e8, #c8c6c6, #e8e8e8);
-        color: #ffffff;
-        text-decoration: none;
-    }
-    nav ul ul ul {
-        /* Dropdown menu 3rd level*/
-        position: absolute;
-        left: 100%;
-        top: 0;
-        border: 1px solid #c8c9ca;
-    }
-}
-
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
 
@@ -397,7 +302,6 @@ footer div {
     background: #eeeeee;
     color: #888888
 }
-<<<<<<< HEAD
 
 footer .links span:not(:first-child)::before {
     content: '|';
@@ -419,5 +323,3 @@ footer .disclaimer {
         display: inline;
     }
 }
-=======
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7

@@ -48,10 +48,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
-<<<<<<< HEAD
   color:##337ab7;
-=======
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -204,11 +201,7 @@ th {
   }
   a,
   a:visited {
-<<<<<<< HEAD
     text-decoration: none;
-=======
-    text-decoration: underline;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1105,22 +1098,13 @@ textarea {
   line-height: inherit;
 }
 a {
-<<<<<<< HEAD
   color: #888888;
-=======
-  color: #337ab7;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
   text-decoration: none;
 }
 a:hover,
 a:focus {
-<<<<<<< HEAD
   color: #337ab7;
   text-decoration: none;
-=======
-  color: #23527c;
-  text-decoration: underline;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -3531,10 +3515,6 @@ tbody.collapse.in {
   z-index: 1000;
   display: none;
   float: left;
-<<<<<<< HEAD
-=======
-  min-width: 160px;
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
@@ -6429,7 +6409,6 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-<<<<<<< HEAD
   bottom: 15px;
   left: 15%;
   z-index: 10;
@@ -6437,16 +6416,6 @@ button.close {
   padding-bottom: 15px;
   color: #fff;
   text-align: center;
-=======
-  bottom: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
->>>>>>> de9b25e7445c4395080b9070e3b3a4c506cc01c7
 }
 .carousel-caption .btn {
   text-shadow: none;
