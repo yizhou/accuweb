@@ -21,8 +21,8 @@ body>.container {
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 
-header > div:first-child{
-    margin:5px 0px;
+header > div:first-child {
+    margin: 5px 0px;
 }
 
 header .logo {
@@ -37,13 +37,16 @@ header .logo a:hover {
 header img {
     width: 33px;
     height: 36px;
+    float: left;
 }
 
 header .logo h1 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 17px;
     color: #003977;
-    display: inline;
+    float: left;
+    margin-top: 0px;
+    -webkit-box-reflect: below -5px -webkit-linear-gradient(transparent, transparent 30%, rgba(255, 255, 255, .2));
 }
 
 @media (min-width: 321px) {
@@ -76,6 +79,10 @@ header .btn-group {
     margin-top: -10px;
 }
 
+header .btn-group span {
+    color: #003977;
+}
+
 header .dropdown-menu {
     width: 133px;
 }
@@ -98,6 +105,10 @@ header .input-group input::-moz-placeholder {
 header .input-group input:-ms-input-placeholder {
     color: #ccc;
     transition: opacity 250ms ease-in-out;
+}
+
+header .input-group-btn span {
+    color: #003977;
 }
 
 @media (min-width: 768px) {
