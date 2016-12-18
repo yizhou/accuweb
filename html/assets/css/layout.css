@@ -107,10 +107,6 @@ header .input-group input:-ms-input-placeholder {
     transition: opacity 250ms ease-in-out;
 }
 
-header .input-group-btn span {
-    color: #003977;
-}
-
 @media (min-width: 768px) {
     header .input-group {
         display: inline-table !important;

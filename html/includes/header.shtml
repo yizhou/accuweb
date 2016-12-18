@@ -22,7 +22,7 @@
                         <div class="input-group">
                             <input id="search_keywords" type="text" class="form-control" placeholder="Search Accusilicon website in Google">
                             <span class="input-group-btn">
-                                <button id="search_submit" class="btn btn-secondary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                <button id="search_submit" class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                             </span>
                         </div>
                     </div>
