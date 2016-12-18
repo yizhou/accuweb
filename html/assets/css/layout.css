@@ -18,11 +18,11 @@ body>.container {
 }
 
 
-/* Header
+/* Header - the default view is optimised for extra small screens like iphone5
 --------------------------------------------------------------------------------------------------------------- */
 
 header > div:first-child {
-    margin: 5px 0px;
+    margin: 5px 2px;
 }
 
 header .logo {
@@ -38,35 +38,16 @@ header img {
     width: 33px;
     height: 36px;
     float: left;
+    display: none;
 }
 
 header .logo h1 {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 17px;
+    font-size: 20px;
     color: #003977;
     float: left;
     margin-top: 0px;
     -webkit-box-reflect: below -5px -webkit-linear-gradient(transparent, transparent 30%, rgba(255, 255, 255, .2));
-}
-
-@media (min-width: 321px) {
-    header .logo h1 {
-        margin-left: 10px;
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 430px) {
-    header .logo h1 {
-        font-size: 28px;
-    }
-    header img {
-        width: 46px;
-        height: 50px;
-    }
-    header .btn-group {
-        margin-top: 0px !important;
-    }
 }
 
 header .form-inline {
@@ -107,7 +88,26 @@ header .input-group input:-ms-input-placeholder {
     transition: opacity 250ms ease-in-out;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 350px) { /* show logo image*/
+    header img {
+        display: inline !important;
+    }
+    header .logo h1 {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) { /* show search box*/
+    header .logo h1 {
+        font-size: 28px;
+    }
+    header img {
+        width: 46px;
+        height: 50px;
+    }
+    header .btn-group {
+        margin-top: 0px !important;
+    }    
     header .input-group {
         display: inline-table !important;
     }

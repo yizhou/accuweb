@@ -1,6 +1,6 @@
         <footer>
             <div>
             <p class="links"><span><a href="">About Us</a></span><span><a href="">Contact Us</a></span><span class="terms"><a href="">Terms &amp; Conditions</a></span><span><a href="">Sitemap</a></span></p>
-            <p class="owner">Copyright &copy; 2016 Accusilicon Inc.<span class="disclaimer"> All rights reserved</span></p>
+            <p class="owner">Copyright &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL"--> Accusilicon Inc.<span class="disclaimer"> All rights reserved</span></p>
             </div>
         </footer>

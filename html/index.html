@@ -20,10 +20,10 @@
     
     .carousel-caption {
         color: #fff;
-        background:rgba(0,0,0,0.3);
+        background: rgba(0, 0, 0, 0.3);
         font-size: 14px;
     }
-       
+    
     @media (min-width: 768px) {
         .carousel-caption {
             font-size: 24px;
@@ -46,32 +46,16 @@
         font-size: 18px;
     }
     
-    @media (min-width: 768px) {
-        .products-services {
-            padding-top: 25px;
-        }
-        .products-services h3 {
-            letter-spacing: 2px;
-            font-size: 24px;
-        }
-    }
-    
-    @media (min-width: 992px) {
-        .products-services {
-            padding-top: 35px;
-        }
-    }
-    
     .products-services h3 i {
         background-color: #f8f8f8;
         padding: 0px 8px;
         color: #003977;
     }
-
+    
     .products-services h4 {
-        color:#337ab7;
+        color: #337ab7;
     }
-
+    
     .products-services hr {
         margin: -13px auto 6px auto;
         top: -6px;
@@ -85,7 +69,7 @@
     }
     
     .products-services .row > div {
-        padding: 20px 30px 35px;
+        padding: 10px 30px;
     }
     
     .products-services .row > div >div:first-child {
@@ -126,11 +110,30 @@
         top: 13px;
         left: 13px;
     }
+    
+    @media (min-width: 768px) {
+        .products-services {
+            padding-top: 25px;
+        }
+        .products-services h3 {
+            letter-spacing: 2px;
+            font-size: 24px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .products-services {
+            padding-top: 35px;
+        }
+        .products-services .row > div {
+            padding: 20px 30px 35px;
+        }
+    }
     /* Business Partners
 --------------------------------------------------------------------------------------------------------------- */
     
     .business-partners {
-        padding: 45px;
+        padding: 20px 45px 35px;
         border-top: 1px dotted #c8c6c6;
         background: #f8f8f8;
     }
@@ -153,6 +156,12 @@
     .business-partners img {
         margin-right: 20px;
         opacity: 0.6;
+    }
+    
+    @media (min-width: 992px) {
+        .business-partners {
+            padding: 45px;
+        }
     }
     /* About Us
 --------------------------------------------------------------------------------------------------------------- */
@@ -226,7 +235,7 @@
 
 <body>
     <div class="container">
-    <!--#include virtual="includes/header.shtml" -->                
+        <!--#include virtual="includes/header.shtml" -->
         <main>
             <div id="homepage-carousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -246,7 +255,7 @@
                     <div class="item">
                         <img src="images/carousel_image2.jpg" alt="...">
                         <div class="carousel-caption">
-                            <p>Very small die size, yet wide operation range</p>                            
+                            <p>Very small die size, yet wide operation range</p>
                         </div>
                     </div>
                     <div class="item">
@@ -337,7 +346,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-9">
-                        <article  class="clearfix">
+                        <article class="clearfix">
                             <a href="">
                                 <p>Established in year 2010, Accusilicon Inc. is the marketing leading company in ultra low phase noise oscillator, ASIC and module, and their test and measurement solutions. Our product range includes SPXO, VCXO, TCXO, OCXO, I2S Hub, General Purpose SDM Hub etc. We are currently seeking business partners in order to provide high quality audio for the end users all over the globe. Our product range includes SPXO, VCXO, TCXO, OCXO, I2S Hub, General Purpose SDM Hub etc. We are currently seeking business partners in order to provide high quality audio for the end users all over the globe.</p>
                                 <p class="pull-right">Read More...</p>
