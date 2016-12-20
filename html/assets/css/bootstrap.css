@@ -3161,6 +3161,63 @@ fieldset[disabled] .btn-primary.focus {
   color: #337ab7;
   background-color: #fff;
 }
+.btn-secondary {
+  color: #fff;
+  background-color: #28507b;
+  border-color: #28507b;
+}
+.btn-secondary:focus,
+.btn-secondary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-secondary:active:hover,
+.btn-secondary.active:hover,
+.open > .dropdown-toggle.btn-secondary:hover,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.open > .dropdown-toggle.btn-secondary:focus,
+.btn-secondary:active.focus,
+.btn-secondary.active.focus,
+.open > .dropdown-toggle.btn-secondary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+  background-image: none;
+}
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-secondary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
@@ -4681,8 +4738,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
+  padding: 15px 15px;
+  margin-bottom: 0px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -4691,9 +4748,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline-block;
 }
 .breadcrumb > li + li:before {
-  padding: 0 5px;
+  padding: 0 8px;
   color: #ccc;
-  content: "/\00a0";
+  content: "\25B6";
 }
 .breadcrumb > .active {
   color: #777;

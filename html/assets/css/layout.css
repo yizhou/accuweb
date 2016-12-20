@@ -88,7 +88,8 @@ header .input-group input:-ms-input-placeholder {
     transition: opacity 250ms ease-in-out;
 }
 
-@media (min-width: 350px) { /* show logo image*/
+@media (min-width: 350px) {
+    /* show logo image*/
     header img {
         display: inline !important;
     }
@@ -97,7 +98,8 @@ header .input-group input:-ms-input-placeholder {
     }
 }
 
-@media (min-width: 768px) { /* show search box*/
+@media (min-width: 768px) {
+    /* show search box*/
     header .logo h1 {
         font-size: 28px;
     }
@@ -107,7 +109,7 @@ header .input-group input:-ms-input-placeholder {
     }
     header .btn-group {
         margin-top: 0px !important;
-    }    
+    }
     header .input-group {
         display: inline-table !important;
     }
@@ -257,7 +259,7 @@ nav select option {
         color: #ffffff !important;
     }
     nav > ul > li:hover > a {
-        color: #ffe400 !important;
+        color: #fff073 !important;
         text-decoration: none;
     }
     nav ul li:hover > ul {
@@ -293,9 +295,174 @@ nav select option {
         width: 100%;
     }
     nav ul ul li a:hover {
-        background: #c8c9ca;
-        color: #ffffff;
+        background: #003977;
+        color: #fff073;
         text-decoration: none;
+    }
+}
+
+
+/* Breadcrumb
+--------------------------------------------------------------------------------------------------------------- */
+
+.breadcrumb-block {
+    border-bottom: 1px dotted #c8c6c6;
+}
+
+.breadcrumb-block ol.breadcrumb {
+    background-color: #fff !important;
+}
+
+
+/* Content
+--------------------------------------------------------------------------------------------------------------- */
+
+.content-wrapper {
+    padding-right: 300px;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0px 25px 15px;
+}
+
+.content h3 {
+    color: #28507b;
+    border-bottom: 1px solid #28507b;
+    padding-bottom: 10px;
+}
+
+.content p {
+    margin: 25px 10px 0px;
+}
+
+
+/* Right bar
+--------------------------------------------------------------------------------------------------------------- */
+
+.right-bar {
+    width: 300px;
+    float: right;
+    margin-right: -300px;
+}
+
+.right-bar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.right-bar>ul {
+    margin: 30px 20px;
+    border: 1px solid #c8c9ca;
+}
+
+.right-bar .products,
+.right-bar .documents {
+    display: block;
+    background-color: #28507b;    
+    background:linear-gradient(#5479a1 , #28507b);
+    background:-webkit-linear-gradient(#5479a1 , #28507b);
+    background:-o-linear-gradient(#5479a1 , #28507b);
+    background:-moz-linear-gradient(#5479a1 , #28507b);;
+    color: #fff;
+    padding: 15px 10px 15px 35px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+.right-bar .products::before {
+    font-family: FontAwesome;
+    content: "\f13a";
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+
+.right-bar .documents::before {
+    font-family: FontAwesome;
+    content: "\f15c";
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+
+.right-bar ul li a {
+    padding: 15px 10px 15px 30px;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.right-bar>ul>li>a {
+    padding: 15px 10px 15px 20px;
+}
+
+.right-bar ul ul li a {
+    padding: 15px 10px 15px 40px;
+    position:relative;
+}
+.right-bar ul ul li a::before {
+    content:"-";
+    position:absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.right-bar ul li a:hover {
+    color: #6b6b6b;
+    background-color: #f0f0f0;
+    border-left: 6px solid #28507b;
+}
+
+.right-bar ul li a.active {
+    background-color: #f0f0f0;
+    color: #6b6b6b;
+    border-left: 6px solid #28507b;
+}
+
+.right-bar form{
+    padding:25px 25px 5px 25px;
+}
+
+.right-bar select,
+.right-bar button{
+    display:block !important;
+    width:200px !important;
+    margin:0px auto 20px !important;
+}
+
+.right-bar>div{
+    padding:10px 40px;
+}
+
+.right-bar address{
+    line-height:1.8;
+    color: #888888;
+}
+
+@media (max-width: 1023px) {
+    .breadcrumb-block{
+        display:none;
+    }
+    .content-wrapper {
+        padding-right: 0px;
+    }
+    .right-bar {
+        width: 100%;
+        float: none;
+    }
+    .right-bar ul {
+        margin-top:0px;
+    }
+    .right-bar>ul:first-child,
+    .right-bar>div {
+        display: none;
+    }
+    .content {
+        width: 100%;
+        float: none;
     }
 }
 
