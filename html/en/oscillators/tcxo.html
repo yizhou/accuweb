@@ -22,12 +22,12 @@
 
 <body>
     <div class="container">
-        <!--#include virtual="/includes/header.shtml" -->
+        <!--#include virtual="/en/includes/header.shtml" -->
         <main>
             <div class="breadcrumb-block">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-                    <li class="breadcrumb-item"><a href="/oscillators/">Ultra Low Phase Noise Oscillator</a></li>
+                    <li class="breadcrumb-item"><a href="/en/"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="breadcrumb-item"><a href="../oscillators/">Ultra Low Phase Noise Oscillator</a></li>
                     <li class="breadcrumb-item active">TCXO</li>
                 </ol>
             </div>
@@ -213,12 +213,12 @@
                     <ul>
                         <li class="products">Products</li>
                         <li>
-                            <a href="/oscillators/">Ultra Low Phase Noise Oscillator</a>
+                            <a href="../oscillators/">Ultra Low Phase Noise Oscillator</a>
                             <ul>
-                                <li><a href="/oscillators/spxo.html">SPXO</a></li>
-                                <li><a href="/oscillators/vcxo.html">VCXO</a></li>
-                                <li><a href="/oscillators/tcxo.html" class="active">TCXO</a></li>
-                                <li><a href="/oscillators/ocxo.html">OCXO</a></li>
+                                <li><a href="../oscillators/spxo.html">SPXO</a></li>
+                                <li><a href="../oscillators/vcxo.html">VCXO</a></li>
+                                <li><a href="../oscillators/tcxo.html" class="active">TCXO</a></li>
+                                <li><a href="../oscillators/ocxo.html">OCXO</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -226,14 +226,14 @@
                         <li class="documents">Documents</li>
                         <li>
                             <form action="">
-                                <select name="" id="" class="form-control">
-                                    <option selected disabled>---- Select document ----</option>
-                                    <option value="">SPXO</option>
-                                    <option value="">VCXO</option>
-                                    <option value="">TCXO</option>
-                                    <option value="">OCXO</option>
+                                <select id="download_selection" class="form-control">
+                                    <option selected>---- Select document ----</option>
+                                    <option value="/en/documents/spxo.pdf">SPXO</option>
+                                    <option value="/en/documents/vcxo.pdf">VCXO</option>
+                                    <option value="/en/documents/tcxo.pdf">TCXO</option>
+                                    <option value="/en/documents/ocxo.pdf">OCXO</option>
                                 </select>
-                                <button class="form-control btn btn-secondary" style="margin-top:15px;" type="button">Download</button>
+                                <button id="download_button" class="form-control btn btn-secondary" style="margin-top:15px;" type="button">Download</button>
                             </form>
                         </li>
                     </ul>
@@ -251,7 +251,7 @@
                 </aside>
             </div>
         </main>
-        <!--#include virtual="/includes/footer.shtml" -->
+        <!--#include virtual="/en/includes/footer.shtml" -->
     </div>
 </body>
 

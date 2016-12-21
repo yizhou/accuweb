@@ -11,7 +11,9 @@ $(function() {
         navDropdown = $("nav .drop-down-list"),
         searchForm = $("#header_form"),
         searchInput = $("#search_keywords"),
-        searchSubmit = $("#search_submit");
+        searchSubmit = $("#search_submit"),
+        downloadButton = $("#download_button"),
+        downloadSelection = $("#download_selection");
 
     /* Navigation menu interaction
     --------------------------------------------------------------------------------------------------------------------- */
@@ -71,4 +73,15 @@ $(function() {
         }
 
     )
+
+    /* Document download
+    --------------------------------------------------------------------------------------------------------------------- */
+    downloadButton.on('click', function() {
+        
+        var url = downloadSelection.val();
+        if (url) {
+            window.open(url);
+        }
+        return false;
+    });    
 })
