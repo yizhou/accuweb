@@ -214,19 +214,18 @@ nav select option {
         display: none !important;
     }
     nav > ul {
+        /* top ul tag style */
         display: block;
         position: relative;
         padding-left: 26px;
     }
     nav > ul > li.menu,
     nav span.glyphicon {
+        /* top li tag style */
         display: none !important;
     }
     nav > ul > li {
         position: relative;
-        display: inline-block !important;
-    }
-    nav > ul > li:not(:first-child):not(:last-child) {
         display: inline-block !important;
     }
     nav > ul > li:not(:first-child)::before {
@@ -257,16 +256,15 @@ nav select option {
         border-bottom-color: #ffe400;
     }
     nav > ul > li > a {
+        /* top a tag style */
         color: #ffffff !important;
     }
     nav > ul > li:hover > a {
         color: #fff073 !important;
         text-decoration: none;
     }
-    nav ul li:hover > ul {
-        display: block !important;
-    }
     nav ul ul {
+        /* underlying ul tag style */
         display: none !important;
         background: rgba(249, 249, 249, 0.95);
         padding: 0px;
@@ -274,8 +272,17 @@ nav select option {
         top: 100%;
         left: 20px;
         z-index: 999;
+        border-left: 1px solid #c8c9ca;
+        border-right: 1px solid #c8c9ca;
+    }
+    nav ul ul ul {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        border-top: 1px solid #c8c9ca;
     }
     nav ul ul li {
+        /* underlying li tag style */
         display: block;
         border-top: 1px solid #f0f0f0;
         border-bottom: 1px solid #c8c9ca;
@@ -284,13 +291,31 @@ nav select option {
         width: 300px;
     }
     nav > ul > li:nth-child(2) > ul > li {
-        width: 330px;
+        width: 550px;
+    }
+    nav ul li:hover > ul {
+        display: block !important;
+    }
+    nav ul li.right-side-list:hover {
+        background: #145986;
+    }
+    nav ul li.right-side-list:hover::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        margin-top: -5px;
+        top: 50%;
+        right: 15px;
+        border: 5px solid transparent;
+        border-right: 0px;
+        border-left-color: #ffe400;
     }
     nav ul ul li a,
     nav ul ul li a:link,
     nav ul ul li a:focus,
     nav ul ul li a:active,
     nav ul ul li a:visited {
+        /*  underlying a tag style */
         padding: 15px 30px;
         color: #000000;
         width: 100%;
@@ -299,6 +324,9 @@ nav select option {
         background: #145986;
         color: #fff073;
         text-decoration: none;
+    }
+    nav ul li.right-side-list:hover>a {
+        color: #fff073;
     }
 }
 
@@ -347,26 +375,29 @@ nav select option {
 }
 
 @media (min-width: 1024px) {
-    .content-wrapper {  /* for right bar */
+    .content-wrapper {
+        /* for right bar */
         padding-right: 300px;
     }
     .content {
         float: left;
     }
-    .content-wrapper.other { /* for left bar */
+    .content-wrapper.other {
+        /* for left bar */
         padding-right: 0px;
         margin-left: 300px;
-    }    
+    }
     .content.other {
         float: none;
     }
-    .content-wrapper.fullpage { /* for left bar */
+    .content-wrapper.fullpage {
+        /* for left bar */
         padding-right: 0px;
         margin-left: 0px;
-    }    
+    }
     .content.fullpage {
         float: none;
-    }    
+    }
 }
 
 
@@ -469,7 +500,7 @@ nav select option {
 
 .right-bar .industry,
 .right-bar .products,
-.right-bar .documents{
+.right-bar .documents {
     display: block;
     background-color: #2b6388;
     background: linear-gradient(#5479a1, #2b6388);
@@ -481,6 +512,7 @@ nav select option {
     border-bottom: 1px solid #fff;
     position: relative;
 }
+
 .right-bar .industry::before {
     font-family: FontAwesome;
     content: "\f275";
@@ -506,26 +538,37 @@ nav select option {
 }
 
 .right-bar ul li a {
-    padding: 15px 10px 15px 30px;
     display: block;
     position: relative;
     border-bottom: 1px solid #f0f0f0;
 }
 
 .right-bar>ul>li>a {
-    padding: 15px 10px 15px 20px;
+    padding: 15px 10px 15px 15px;
 }
 
 .right-bar ul ul li a {
-    padding: 15px 10px 15px 40px;
+    padding: 15px 10px 15px 33px;
+    position: relative;
+}
+
+.right-bar ul ul ul li a {
+    padding: 15px 10px 15px 50px;
     position: relative;
 }
 
 .right-bar ul ul li a::before {
     content: "-";
     position: absolute;
-    left: 30px;
+    left: 23px;
     top: 15px;
+}
+
+.right-bar ul ul ul li a::before {
+    content: "|-";
+    position: absolute;
+    left: 36px;
+    top: 14px;
 }
 
 .right-bar ul li a:hover {
