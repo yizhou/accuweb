@@ -54,7 +54,7 @@ $(function() {
 
         },
         blur: function() {
-            if (!$(this).val()) $(this).attr("placeholder", "借助百度进行Accusilicon站内搜索");
+            if (!$(this).val()) $(this).attr("placeholder", "使用百度进行Accusilicon站内搜索");
         }
     })
     searchForm.on("submit", function(e) {

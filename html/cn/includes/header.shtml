@@ -19,7 +19,7 @@
                     </ul>
                 </div>
                 <div class="input-group">
-                    <input id="search_keywords" type="text" class="form-control" placeholder="借助百度进行Accusilicon站内搜索">
+                    <input id="search_keywords" type="text" class="form-control" placeholder="使用百度进行Accusilicon站内搜索">
                     <span class="input-group-btn">
                                 <button id="search_submit" class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                     </span>
