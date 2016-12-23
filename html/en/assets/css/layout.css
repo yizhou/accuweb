@@ -55,7 +55,7 @@ header .form-inline {
 }
 
 header .btn-group {
-    top: 20px !important;
+    top: 15px !important;
     right: 10px !important;
     margin-top: -10px;
 }
@@ -71,7 +71,7 @@ header .dropdown-menu {
 header .input-group {
     display: none !important;
     width: 320px !important;
-    top: 20px !important;
+    top: 15px !important;
     right: 0px !important;
 }
 
@@ -214,14 +214,14 @@ nav select option {
         display: none !important;
     }
     nav > ul {
-        /* top ul tag style */
+        /* parent ul tag style */
         display: block;
         position: relative;
         padding-left: 26px;
     }
     nav > ul > li.menu,
     nav span.glyphicon {
-        /* top li tag style */
+        /* parent li tag style */
         display: none !important;
     }
     nav > ul > li {
@@ -256,7 +256,7 @@ nav select option {
         border-bottom-color: #ffe400;
     }
     nav > ul > li > a {
-        /* top a tag style */
+        /* parent a tag style */
         color: #ffffff !important;
     }
     nav > ul > li:hover > a {
@@ -264,7 +264,7 @@ nav select option {
         text-decoration: none;
     }
     nav ul ul {
-        /* underlying ul tag style */
+        /* child ul tag style */
         display: none !important;
         background: rgba(249, 249, 249, 0.95);
         padding: 0px;
@@ -282,7 +282,7 @@ nav select option {
         border-top: 1px solid #c8c9ca;
     }
     nav ul ul li {
-        /* underlying li tag style */
+        /* child li tag style */
         display: block;
         border-top: 1px solid #f0f0f0;
         border-bottom: 1px solid #c8c9ca;
@@ -315,7 +315,7 @@ nav select option {
     nav ul ul li a:focus,
     nav ul ul li a:active,
     nav ul ul li a:visited {
-        /*  underlying a tag style */
+        /*  child a tag style */
         padding: 15px 30px;
         color: #000000;
         width: 100%;

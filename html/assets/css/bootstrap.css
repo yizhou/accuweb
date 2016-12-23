@@ -3202,6 +3202,19 @@ fieldset[disabled] .btn-primary.focus {
 .open > .dropdown-toggle.btn-secondary {
   background-image: none;
 }
+.btn-secondary:disabled,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus {
+  background-color: #0b4c76;
+  border-color: #0b4c76;
+}
 .btn-success {
   color: #fff;
   background-color: #5cb85c;

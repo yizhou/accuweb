@@ -1,0 +1,21 @@
+<script>
+var cookieLanguage = document.cookie;
+if (cookieLanguage) {
+    if (cookieLanguage.indexOf("language=en") > -1) {
+        location.href = document.URL + "en/";
+    } else if (cookieLanguage.indexOf("language=cn") > -1) {
+        location.href = document.URL + "cn/";
+    } else {
+        location.href = document.URL + "en/";
+    }
+} else {
+    var browserLanguage = (navigator.language || navigator.browserLanguage).toLowerCase();
+    if (browserLanguage.indexOf("en") > -1) {
+        location.href = document.URL + "en/";
+    } else if (browserLanguage.indexOf("zh") > -1) {
+        location.href = document.URL + "cn/";
+    } else {
+        location.href = document.URL + "en/";
+    }    
+};
+</script>

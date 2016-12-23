@@ -1,0 +1,118 @@
+<header>
+    <div class="clearfix">
+        <div class="logo">
+            <a href="http://www.accusilicon.com/">
+                <img src="/images/logo.svg" alt="Accusilicon Logo" onerror="this.onerror=null; this.src='/images/logo.png'">
+                <h1>ACCUSILICON</h1>
+            </a>
+        </div>
+        <form id="header_form" class="form-inline">
+            <div class="form-group">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> Language</button>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:;" id="language" data-language="en">English</a></li>                        
+                    </ul>
+                </div>
+                <div class="input-group">
+                    <input id="search_keywords" type="text" class="form-control" placeholder="借助百度进行Accusilicon站内搜索">
+                    <span class="input-group-btn">
+                                <button id="search_submit" class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <nav>
+        <select class="form-control">
+            <option value="" selected>&#9776; 导航菜单</option>
+            <option value="/cn/">首页</option>
+            <option value="/cn/asic_and_module/">集成电路模块</option>
+            <option value="/cn/asic_and_module/i2s_hub.html">--I2S Hub</option>
+            <option value="/cn/asic_and_module/general_purpose_sdm_hub.html">--General Purpose SDM Hub</option>
+            <option value="/cn/asic_and_module/x8_v8_ultra_low_jitter_xo_vcxo_ic.html">--X8/V8 Ultra-Low Jitter XO/VCXO IC</option>
+            <option value="/cn/oscillators/">超低相位噪声有源晶振</option>
+            <option value="/cn/oscillators/spxo.html">--SPXO</option>
+            <option value="/cn/oscillators/vcxo.html">--VCXO</option>
+            <option value="/cn/oscillators/tcxo.html">--TCXO</option>
+            <option value="/cn/oscillators/tcxo_as3xx.html">  |-AS3xx Series</option>
+            <option value="/cn/oscillators/ocxo.html">--OCXO</option>
+            <option value="/cn/oscillators/ocxo_as508.html">  |-AS508 LN 10MHz</option>
+            <option value="/cn/oscillators/ocxo_as510.html">  |-AS510 ULN 10MHz</option>
+            <option value="/cn/oscillators/ocxo_as512.html">  |-AS512 ULN Locked 100MHz</option>
+            <option value="/cn/high_quality_audio/">高品质音效</option>
+            <option value="/cn/high_quality_audio/audio_algorithm.html">--Audio Algorithm</option>            
+            <option value="/cn/high_quality_audio/audio_pll_module.html">--Audio PLL Module</option>
+            <option value="/cn/high_quality_audio/audio_spxo.html">--Audio SPXO</option>
+            <option value="/cn/high_quality_audio/audio_spxo_as318b.html">  |-AS318B</option>
+            <option value="/cn/high_quality_audio/audio_ocxo.html">--Audio OCXO</option>
+            <option value="/cn/high_quality_audio/audio_ocxo_as511uln.html">  |-AS511ULN Locked 90.3168MHz / 98.304MHz</option>
+            <option value="/cn/test_measurement_solution/">测试与测量解决方案</option>
+            <option value="/cn/test_measurement_solution/phase_noise_test_solution.html">--Phase Noise Test Solution</option>
+            <option value="/cn/test_measurement_solution/timing_and_frequency_test_solution.html">--Timing &amp; Frequency Test Solution</option>
+            <option value="/cn/test_measurement_solution/audio_test_solution.html">--Audio Test Solution</option>
+            <option value="/cn/technical_consultant/">技术咨询</option> 
+            <option value="/cn/tools/">计算工具</option>
+        </select>
+        <ul>
+            <li><a href="/cn/">首页</a></li>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/asic_and_module/">集成电路模块</a>
+                <ul>
+                    <li><a href="/cn/asic_and_module/i2s_hub.html">I2S Hub (such as DSD138)</a></li>
+                    <li><a href="/cn/asic_and_module/general_purpose_sdm_hub.html">General Purpose SDM Hub (such as PCM44.1 to DSD256 based FPGA)</a></li>
+                    <li><a href="/cn/asic_and_module/x8_v8_ultra_low_jitter_xo_vcxo_ic.html">X8/V8 Ultra-Low Jitter XO/VCXO IC</a></li>
+                </ul>
+            </li>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/oscillators/">超低相位噪声有源晶振</a>
+                <ul>
+                    <li><a href="/cn/oscillators/spxo.html">SPXO</a></li>
+                    <li><a href="/cn/oscillators/vcxo.html">VCXO</a></li>
+                    <li class="right-side-list"><a href="/cn/oscillators/tcxo.html">TCXO</a>
+                        <ul>
+                            <li><a href="/cn/oscillators/tcxo_as3xx.html">AS3xx Series (such as 26MHz or 19.2MHz )</a></li>
+                        </ul>
+                    </li>
+                    <li class="right-side-list"><a href="/cn/oscillators/ocxo.html">OCXO</a>
+                        <ul>
+                            <li><a href="/cn/oscillators/ocxo_as508.html">AS508 LN 10MHz</a></li>
+                            <li><a href="/cn/oscillators/ocxo_as510.html">AS510 ULN 10MHz</a></li>
+                            <li><a href="/cn/oscillators/ocxo_as512.html">AS512 ULN Locked 100MHz</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/high_quality_audio/">高品质音效</a>
+                <ul>
+                    <li><a href="/cn/high_quality_audio/audio_algorithm.html">Audio Algorithm</a></li>                    
+                    <li><a href="/cn/high_quality_audio/audio_pll_module.html">Audio PLL Module</a></li>
+                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_spxo.html">Audio SPXO</a>
+                        <ul>
+                            <li><a href="/cn/high_quality_audio/audio_spxo_as318b.html">AS318B</a></li>
+                        </ul>
+                    </li>
+                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_ocxo.html">Audio OCXO</a>
+                        <ul>
+                            <li><a href="/cn/high_quality_audio/audio_ocxo_as511uln.html">AS511ULN Locked 90.3168MHz / 98.304MHz</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/test_measurement_solution/">测试与测量解决方案</a>
+                <ul>
+                    <li><a href="/cn/test_measurement_solution/phase_noise_test_solution.html">Phase Noise Test Solution</a></li>
+                    <li><a href="/cn/test_measurement_solution/timing_and_frequency_test_solution.html">Timing &amp; Frequency Test Solution</a></li>
+                    <li><a href="/cn/test_measurement_solution/audio_test_solution.html">Audio Test Solution</a></li>
+                </ul>
+            </li>
+            <li><a href="/cn/technical_consultant/">技术咨询</a></li>
+            <li><a href="/cn/tools/">计算工具</a></li>
+            <li class="menu">
+                &#9776; Menu
+            </li>
+        </ul>
+    </nav>
+</header>

@@ -9,14 +9,13 @@
         <form id="header_form" class="form-inline">
             <div class="form-group">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> Language</button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 选择语言</button>
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">简体中文</a></li>
+                    <ul class="dropdown-menu">                        
+                        <li><a href="javascript:;" id="language" data-language="cn">简体中文</a></li>
                     </ul>
                 </div>
                 <div class="input-group">
@@ -30,7 +29,7 @@
     </div>
     <nav>
         <select class="form-control">
-            <option selected>&#9776; Menu</option>
+            <option value="" selected>&#9776; Menu</option>
             <option value="/en/">Home</option>
             <option value="/en/asic_and_module/">ASIC &amp; Module</option>
             <option value="/en/asic_and_module/i2s_hub.html">--I2S Hub</option>
