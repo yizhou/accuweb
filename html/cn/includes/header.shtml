@@ -31,11 +31,11 @@
         <select class="form-control">
             <option value="" selected>&#9776; 导航菜单</option>
             <option value="/cn/">首页</option>
-            <option value="/cn/asic_and_module/">集成电路模块</option>
+            <option value="/cn/asic_and_module/">产品</option>
             <option value="/cn/asic_and_module/i2s_hub.html">--I2S Hub</option>
             <option value="/cn/asic_and_module/general_purpose_sdm_hub.html">--General Purpose SDM Hub</option>
             <option value="/cn/asic_and_module/x8_v8_ultra_low_jitter_xo_vcxo_ic.html">--X8/V8 Ultra-Low Jitter XO/VCXO IC</option>
-            <option value="/cn/oscillators/">超低相位噪声有源晶振</option>
+            <option value="/cn/oscillators/">应用</option>
             <option value="/cn/oscillators/spxo.html">--SPXO</option>
             <option value="/cn/oscillators/vcxo.html">--VCXO</option>
             <option value="/cn/oscillators/tcxo.html">--TCXO</option>
@@ -44,19 +44,18 @@
             <option value="/cn/oscillators/ocxo_as508.html">  |-AS508 LN 10MHz</option>
             <option value="/cn/oscillators/ocxo_as510.html">  |-AS510 ULN 10MHz</option>
             <option value="/cn/oscillators/ocxo_as512.html">  |-AS512 ULN Locked 100MHz</option>
-            <option value="/cn/high_quality_audio/">高品质音效</option>
+            <option value="/cn/high_quality_audio/">服务</option>
             <option value="/cn/high_quality_audio/audio_algorithm.html">--Audio Algorithm</option>            
             <option value="/cn/high_quality_audio/audio_pll_module.html">--Audio PLL Module</option>
             <option value="/cn/high_quality_audio/audio_spxo.html">--Audio SPXO</option>
             <option value="/cn/high_quality_audio/audio_spxo_as318b.html">  |-AS318B</option>
             <option value="/cn/high_quality_audio/audio_ocxo.html">--Audio OCXO</option>
             <option value="/cn/high_quality_audio/audio_ocxo_as511uln.html">  |-AS511ULN Locked 90.3168MHz / 98.304MHz</option>
-            <option value="/cn/test_measurement_solution/">测试与测量解决方案</option>
+            <option value="/cn/test_measurement_solution/">加入我们</option>
             <option value="/cn/test_measurement_solution/phase_noise_test_solution.html">--Phase Noise Test Solution</option>
             <option value="/cn/test_measurement_solution/timing_and_frequency_test_solution.html">--Timing &amp; Frequency Test Solution</option>
             <option value="/cn/test_measurement_solution/audio_test_solution.html">--Audio Test Solution</option>
-            <option value="/cn/technical_consultant/">技术咨询</option> 
-            <option value="/cn/tools/">计算工具</option>
+            <option value="/cn/technical_consultant/">联系方式</option> 
         </select>
         <ul>
             <li><a href="/cn/">首页</a></li>
