@@ -73,32 +73,33 @@
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/oscillators/">应用</a>
                 <ul>
-                    <li><a href="/cn/oscillators/spxo.html">SPXO</a></li>
-                    <li><a href="/cn/oscillators/vcxo.html">VCXO</a></li>
-                    <li class="right-side-list"><a href="/cn/oscillators/tcxo.html">TCXO</a>
+                    <li><a href="/cn/oscillators/spxo.html">手机</a></li>
+                    <li><a href="/cn/oscillators/vcxo.html">通讯</a></li>
+                    <li class="right-side-list"><a href="/cn/oscillators/tcxo.html">音频/视频</a>
                         <ul>
-                            <li><a href="/cn/oscillators/tcxo_as3xx.html">AS3xx Series (such as 26MHz or 19.2MHz )</a></li>
+                            <li><a href="/cn/oscillators/tcxo_as3xx.html">医疗</a></li>
                         </ul>
                     </li>
-                    <li class="right-side-list"><a href="/cn/oscillators/ocxo.html">OCXO</a>
+                    <li class="right-side-list"><a href="/cn/oscillators/ocxo.html">测量</a>
                         <ul>
                             <li><a href="/cn/oscillators/ocxo_as508.html">AS508 LN 10MHz</a></li>
                             <li><a href="/cn/oscillators/ocxo_as510.html">AS510 ULN 10MHz</a></li>
                             <li><a href="/cn/oscillators/ocxo_as512.html">AS512 ULN Locked 100MHz</a></li>
                         </ul>
                     </li>
+                    <li><a href="/cn/oscillators/vcxo.html">系统方案</a></li>
                 </ul>
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/high_quality_audio/">服务</a>
                 <ul>
-                    <li><a href="/cn/high_quality_audio/audio_algorithm.html">Audio Algorithm</a></li>                    
-                    <li><a href="/cn/high_quality_audio/audio_pll_module.html">Audio PLL Module</a></li>
-                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_spxo.html">Audio SPXO</a>
+                    <li><a href="/cn/high_quality_audio/audio_algorithm.html">ASIC开发</a></li>                   
+                    <li><a href="/cn/high_quality_audio/audio_pll_module.html">SOC开发</a></li>
+                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_spxo.html">模组开发</a>
                         <ul>
                             <li><a href="/cn/high_quality_audio/audio_spxo_as318b.html">AS318B</a></li>
                         </ul>
                     </li>
-                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_ocxo.html">Audio OCXO</a>
+                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_ocxo.html">系统开发</a>
                         <ul>
                             <li><a href="/cn/high_quality_audio/audio_ocxo_as511uln.html">AS511ULN Locked 90.3168MHz / 98.304MHz</a></li>
                         </ul>
