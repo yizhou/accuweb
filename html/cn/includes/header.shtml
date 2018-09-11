@@ -28,6 +28,7 @@
         </form>
     </div>
     <nav>
+<!--
         <select class="form-control">
             <option value="" selected>&#9776; 导航菜单</option>
             <option value="/cn/">首页</option>
@@ -57,6 +58,7 @@
             <option value="/cn/test_measurement_solution/audio_test_solution.html">--Audio Test Solution</option>
             <option value="/cn/technical_consultant/">联系方式</option> 
         </select>
+-->
         <ul>
             <li><a href="/cn/">首页</a></li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/asic_and_module/">产品</a>
