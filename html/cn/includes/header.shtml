@@ -34,7 +34,7 @@
 -->
         <ul>
             <li><a href="/cn/">首页</a></li>
-            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/asic_and_module/">产品</a>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>产品</a>
                 <ul>
                     <li><a href="/cn/asic_and_module/clock_ic.html">时钟芯片 </a></li>
                     <li><a href="/cn/asic_and_module/xo.html">晶振</a></li>
@@ -46,40 +46,23 @@
                     <li><a href="/cn/asic_and_module/clock_meas.html">时钟稳定度分析仪</a></li>
                 </ul>
             </li>
-            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/oscillators/">应用</a>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>应用</a>
                 <ul>
-                    <li><a href="/cn/oscillators/spxo.html">手机</a></li>
-                    <li><a href="/cn/oscillators/vcxo.html">通讯</a></li>
-                    <li class="right-side-list"><a href="/cn/oscillators/tcxo.html">音频/视频</a>
-                        <ul>
-                            <li><a href="/cn/oscillators/tcxo_as3xx.html">医疗</a></li>
-                        </ul>
-                    </li>
-                    <li class="right-side-list"><a href="/cn/oscillators/ocxo.html">测量</a>
-                        <ul>
-                            <li><a href="/cn/oscillators/ocxo_as508.html">AS508 LN 10MHz</a></li>
-                            <li><a href="/cn/oscillators/ocxo_as510.html">AS510 ULN 10MHz</a></li>
-                            <li><a href="/cn/oscillators/ocxo_as512.html">AS512 ULN Locked 100MHz</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/cn/oscillators/vcxo.html">系统方案</a></li>
+                    <li><a href="/cn/applications/mobilephone.html">手机</a></li>
+                    <li><a href="/cn/applications/communication.html">通讯</a></li>
+                    <li><a href="/cn/applications/av.html">音频/视频</a></li>
+                    <li><a href="/cn/applications/medical.html">医疗</a></li>
+                    <li><a href="/cn/applications/measure.html">测量</a>
+                    <li><a href="/cn/applications/system.html">系统方案</a></li>
                 </ul>
             </li>
-            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/high_quality_audio/">服务</a>
+            <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>服务</a>
                 <ul>
-                    <li><a href="/cn/high_quality_audio/audio_algorithm.html">ASIC开发</a></li>                   
-                    <li><a href="/cn/high_quality_audio/audio_pll_module.html">SOC开发</a></li>
-                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_spxo.html">模组开发</a>
-                        <ul>
-                            <li><a href="/cn/high_quality_audio/audio_spxo_as318b.html">AS318B</a></li>
-                        </ul>
-                    </li>
-                    <li class="right-side-list"><a href="/cn/high_quality_audio/audio_ocxo.html">系统开发</a>
-                        <ul>
-                            <li><a href="/cn/high_quality_audio/audio_ocxo_as511uln.html">AS511ULN Locked 90.3168MHz / 98.304MHz</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/cn/high_quality_audio/audio_pll_module.html">时钟设计</a></li>
+                    <li><a href="/cn/services/asic.html">ASIC开发</a></li>                   
+                    <li><a href="/cn/services/soc.html">SOC开发</a></li>
+                    <li><a href="/cn/services/modules.html">模组开发</a></li>
+                    <li><a href="/cn/services/system.html">系统开发</a></li>
+                    <li><a href="/cn/services/timing.html">时钟设计</a></li>
                 </ul>
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/accusilicon/careers.html">加入我们</a>
