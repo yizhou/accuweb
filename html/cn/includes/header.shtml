@@ -14,9 +14,12 @@
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
+<!--
                     <ul class="dropdown-menu">
                         <li><a href="javascript:;" id="language" data-language="en">English</a></li>                        
                     </ul>
+-->
+
                 </div>
                 <div class="input-group">
                     <input id="search_keywords" type="text" class="form-control" placeholder="使用百度进行Accusilicon站内搜索">
