@@ -1,6 +1,6 @@
         <footer>
             <div>
             <p class="links"><span><a href="/cn/accusilicon/about_us.html">关于我们</a></span><span><a href="/cn/accusilicon/contact_us.html">联系我们</a></span><span class="terms"><a href="/cn/accusilicon/terms_conditions.html">网站使用条款</a></span></p>
-            <p class="owner">Copyright &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL"--> Accusilicon Inc.<span class="disclaimer"> All rights reserved</span></p>
+            <p class="owner">Copyright &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL"--> Accusilicon USA Inc.<span class="disclaimer"> All rights reserved</span></p>
             </div>
         </footer>
