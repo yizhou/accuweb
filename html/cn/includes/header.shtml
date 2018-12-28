@@ -76,7 +76,9 @@
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/accusilicon/careers.html">加入我们</a>
                 <ul>
                     <li><a href="/cn/accusilicon/careers.html#1">西安</a></li>
+<!--
                     <li><a href="/cn/accusilicon/careers.html#2">深圳</a></li>
+-->
                     <li><a href="/cn/accusilicon/careers.html#3">硅谷</a></li>
                 </ul>
             </li>
