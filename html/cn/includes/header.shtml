@@ -54,8 +54,8 @@
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>应用</a>
                 <ul>
-                    <li><a href="/cn/applications/mobilephone.html">手机</a></li>
-                    <li><a href="/cn/applications/communication.html">通讯</a></li>
+                    <li><a href="/cn/applications/mobilephone.html">智能手机</a></li>
+                    <li><a href="/cn/applications/communication.html">数字通讯</a></li>
                     <li><a href="/cn/applications/av.html">音频/视频</a></li>
                     <li><a href="/cn/applications/medical.html">医疗</a></li>
                     <li><a href="/cn/applications/measure.html">测量</a>
