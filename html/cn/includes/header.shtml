@@ -66,11 +66,10 @@
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>服务</a>
                 <ul>
-                    <li><a href="/cn/services/asic.html">ASIC开发</a></li>                   
-                    <li><a href="/cn/services/soc.html">SOC开发</a></li>
+                    <li><a href="/cn/services/asic.html">ASIC和SOC定制化开发</a></li>                   
                     <li><a href="/cn/services/modules.html">模组开发</a></li>
                     <li><a href="/cn/services/system.html">系统开发</a></li>
-                    <li><a href="/cn/services/timing.html">时钟设计</a></li>
+                    <li><a href="/cn/services/timing.html">时钟开发</a></li>
                 </ul>
             </li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/cn/accusilicon/careers.html">加入我们</a>
