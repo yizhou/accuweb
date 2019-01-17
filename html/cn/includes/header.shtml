@@ -39,14 +39,14 @@
             <li><a href="/cn/">首页</a></li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>产品</a>
                 <ul>
-                    <li><a href="/cn/asic_and_module/clock_ic.html">时钟芯片 </a></li>
-                    <li><a href="/cn/asic_and_module/xo.html">晶振</a></li>
-                    <li><a href="/cn/asic_and_module/ocxo.html">恒温晶振（OCXO）</a></li>
-                    <li><a href="/cn/asic_and_module/modules.html">模组</a></li>
                     <li><a href="/cn/asic_and_module/switch_ic.html">开关芯片</a></li>
                     <li><a href="/cn/asic_and_module/protect_ic.html">保护芯片</a></li>
                     <li><a href="/cn/asic_and_module/adda_ic.html">ADC/DAC芯片</a></li>
                     <li><a href="/cn/asic_and_module/dsp_ic.html">数字音频处理器(DSP)芯片</a></li>
+                    <li><a href="/cn/asic_and_module/clock_ic.html">时钟芯片 </a></li>
+                    <li><a href="/cn/asic_and_module/xo.html">晶振</a></li>
+                    <li><a href="/cn/asic_and_module/ocxo.html">恒温晶振（OCXO）</a></li>
+                    <li><a href="/cn/asic_and_module/modules.html">模组</a></li>
 <!--
                     <li><a href="/cn/asic_and_module/clock_meas.html">时钟稳定度分析仪</a></li>
 -->
