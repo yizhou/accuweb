@@ -36,7 +36,7 @@
         </select>
 -->
         <ul>
-            <li><a href="/cn/">首页</a></li>
+            <li class="head-menu"><a href="/cn/">首页</a></li>
             <li class="drop-down-list"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>产品</a>
                 <ul>
                     <li><a href="/cn/asic_and_module/switch_ic.html">开关芯片</a></li>
@@ -81,7 +81,7 @@
                     <li><a href="/cn/accusilicon/careers.html#3">硅谷</a></li>
                 </ul>
             </li>
-            <li><a href="/cn/accusilicon/contact_us.html">联系方式</a></li>
+            <li  class="head-menu"> <a href="/cn/accusilicon/contact_us.html">联系方式</a></li>
             <li class="menu">
                 &#9776; Menu
             </li>
